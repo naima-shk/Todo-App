@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div>
     <div id="myDIV" class="header">
-        <h2 style="margin:5px">My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
+        <h2 style="margin:4px">You have 3 todos</h2>
+        
       </div>
       
       <ul id="myUL">
-        <li>Hit the gym</li>
-        <li class="checked">Pay bills</li>
-        <li>Meet George</li>
-        <li>Buy eggs</li>
-        <li>Read a book</li>
-        <li>Organize office</li>
+        <li>task 1</li>
+        <li>task 2</li>
+        <li>task 3</li>
       </ul>
+      <div>
+        <input type="text" id="myInput" placeholder="Enter Item">
+        
+        <span onclick="newElement()" class="addBtn">Submit</span> 
+      </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
