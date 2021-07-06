@@ -6,9 +6,10 @@ body{
 }
 .container {
   padding: 10px;
-  border: 1px solid #BCB9B8;
-  width: 40%;
+  border: 1px solid gray;
+  width: 35%;
   margin: auto;
+  background-color: whitesmoke;
   
 }
 .container .input{
@@ -41,7 +42,7 @@ body{
   padding: 5px;
   margin: 4px;
   border: 1px solid #BCB9B8;
-  background-color: #BCB9B8;
+  background-color: whitesmoke;
 }
 .heading{
   margin-left: 10px;
