@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Todo-App </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
+  
+  <div class="container">
     <div id="myDIV" class="header">
-        <h2 style="margin:4px">You have 3 todos</h2>
-        
-      </div>
+      <h2  class="heading">You have 3 todos</h2>
       
-      <ul id="myUL">
-        <li>task 1</li>
-        <li>task 2</li>
-        <li>task 3</li>
-      </ul>
-      <div>
-        <input type="text" id="myInput" placeholder="Enter Item">
-        
-        <span onclick="newElement()" class="addBtn">Submit</span> 
-      </div>
+    </div>
+     <ul id="box"></ul>
+     <input type="text" id="name" class="input"/>
+     <input type="button" value="Submit" id="btnClick" class="btn"
+     onclick="addMore()"/>
+     <span id="error"></span>
     </div>
     <script src="app.js"></script>
 </body>
