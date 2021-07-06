@@ -23,6 +23,7 @@ body{
 .container ul{
   list-style: none;
   padding: 0px;
+  display: block;
 }
 .container li{
   color: black;
@@ -43,10 +44,12 @@ body{
   margin: 4px;
   border: 1px solid #BCB9B8;
   background-color: whitesmoke;
+  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
 }
 .heading{
   margin-left: 10px;
   padding-left: 4px;
   text-align: center;
+ 
   
 }
