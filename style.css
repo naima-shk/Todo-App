@@ -2,14 +2,16 @@ body{
   font-family: 'poppins', sans-serif;
   margin-top: 125px;
   padding: 5px;
+  background-image: url('background.png');
   
 }
 .container {
   padding: 10px;
   border: 1px solid gray;
-  width: 35%;
+  width: 33%;
   margin: auto;
-  background-color: whitesmoke;
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2)
   
 }
 .container .input{
@@ -27,7 +29,10 @@ body{
 }
 .container li{
   color: black;
-  background-color: #BCB9B8;
+  background-color: whitesmoke;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2)
 }
 .container li a{
   float: right;
