@@ -1,60 +1,69 @@
-body{
-  font-family: 'poppins', sans-serif;
-  margin-top: 125px;
-  padding: 5px;
-  background-image: url('background.png');
-  
+body {
+    font-family: 'poppins', sans-serif;
+    margin-top: 125px;
+    padding: 5px;
+    background-image: url('background.png');
 }
+
 .container {
-  padding: 10px;
-  border: 1px solid gray;
-  width: 33%;
-  margin: auto;
-  background-color: white;
-  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2)
-  
+    padding: 10px;
+    border: 1px solid gray;
+    width: 33%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2)
 }
-.container .input{
-  width: 80%;
-  height: 20px;
+
+.container .input {
+    width: 80%;
+    height: 30px;
+    margin-left: 4px;
 }
-.container .btn{
-  width: 59px;
-  height: 25px;
+
+.container .btn {
+    width: 75px;
+    height: 35px;
 }
-.container ul{
-  list-style: none;
-  padding: 0px;
-  display: block;
+
+.container ul {
+    list-style: none;
+    padding: 0px;
+    display: block;
+    margin-left: 3px;
 }
-.container li{
-  color: black;
-  background-color: whitesmoke;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2)
+
+.container li {
+    color: black;
+    margin-bottom: 1rem;
+    padding: .9rem;
+    background-color: white;
+    width: 93%;
+    margin-left: 1px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2)
 }
-.container li a{
-  float: right;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
+
+.container li a {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
 }
-.container #error{
-  color: red;
-  font-size: 14px;
+
+.container #error {
+    color: red;
+    font-size: 14px;
 }
-#myDIV{
-  padding: 5px;
-  margin: 4px;
-  border: 1px solid #BCB9B8;
-  background-color: whitesmoke;
-  box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+
+#myDIV {
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid #BCB9B8;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
-.heading{
-  margin-left: 10px;
-  padding-left: 4px;
-  text-align: center;
- 
-  
+
+.heading {
+    margin-left: 10px;
+    padding-left: 4px;
+    text-align: center;
 }
