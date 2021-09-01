@@ -4,22 +4,20 @@
 3- 
 */
 // first we are setting  countdown in heading..
-function $(val) {
-    result = document.querySelector(val);
+$ = function(val){
+    result = document.querySelector(val); 
+    return result;
+ };
+all =function( val ){
+    result = document.querySelectorAll(val); 
     return result;
 };
-
-function all(val) {
-    result = document.querySelectorAll(val);
-    return result;
-};
-
-function countList() {
+function countList(){
     let count = 0;
-    count = all("#box li").length;
-    console.log(count);
-    return count;
-}
+    count   =  all("#box li").length;
+   console.log(count);
+   return count;
+   }
 
 function addMore() {
     document.getElementById("error").innerHTML = "";
