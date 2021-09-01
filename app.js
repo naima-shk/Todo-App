@@ -4,12 +4,12 @@
 3- 
 */
 // first we are setting  countdown in heading..
-$ = function(val) {
+function $(val) {
     result = document.querySelector(val);
     return result;
 };
 
-all = function(val) {
+function all(val) {
     result = document.querySelectorAll(val);
     return result;
 };
@@ -43,6 +43,7 @@ function addMore() {
             box.appendChild(li);
         } else {
             box.insertBefore(li, pos);
+            document.querySelector('span').innerHTML = countList();
         }
         //let a = document.createElement('a');
         //a.textContent='x';
